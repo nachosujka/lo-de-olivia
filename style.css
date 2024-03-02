@@ -44,6 +44,14 @@ header {
 .crear_cuenta{
   color: #fff;
 }
+.btn-primary{
+  background-color: #723D46;
+  border-color: #723D46;
+}
+.btn-primary:hover{
+  background-color: #723D46;
+  border-color: #723D46;
+}
 .productos {
   display: flex;
   margin-right: 10px;
@@ -173,22 +181,20 @@ margin-left: 50px;
 }
 .nosotros{
   text-align: center;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.trabaja p{
+ justify-content: center;
 }
 .social{
   display: flex;
 }
-.nosotros{
- margin-right: 50px;
- margin-top: 20px;
-}
 .ataud{
 margin-top: 50px;
 }
-.lyna{
+.ofertas{
  margin-top: 40px;
-}
-.anotadores{
-  margin-top: 40px;
 }
 .taza{
   margin-top: 50px;
@@ -196,21 +202,17 @@ margin-top: 50px;
 .duki{
   margin-top: 30px;
 }
-.jarro{
-  margin-left: 50px;
-  margin-top: 50px;
-}
 .taza_argentina{
   margin-top: 20px;
   margin-left: 50px;
 }
-.almohadon_pintar{
+.margin-chico{
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
-.margin-prooducto{
+.margin-producto{
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .logo_cuenta{
   display: flex;
@@ -239,9 +241,15 @@ form{
   text-align: center;
 }
 @media (max-width:576px){
+  .body_grid{
+    flex-direction: column;
+  }
 .card{
   flex-direction: column;
  align-items: center;
+}
+.card img{
+  max-width: 100%;
 }
 article.article1{
  width: 50%;
@@ -250,10 +258,19 @@ article.article1{
   flex-direction: column;
   align-items: center;
 }
+.card2 img{
+  max-width: 100%;
+}
 article.article2{
   width: 50%;
 }
 .productos1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.productos2{
   display: flex;
   text-align: center;
   justify-content: center;
@@ -265,10 +282,40 @@ article.article2{
  align-items: center;
  text-align: center;
 }
+nav{
+  font-size: 16px;
+}
 form{
   margin-left: 140px;
   margin-top: 50px;
   width: 50%;
 }
-
+.margin-producto{
+  margin: 0;
+}
+.ataud{
+  margin: 0;
+  }
+.ofertas{
+   margin: 0;
+  }
+.taza{
+    margin: 50;
+  }
+.duki{
+    margin: 0;
+  }
+.taza_argentina{
+    margin: 0;
+  }
+.margin-chico{
+    margin: 0;
+  }
+.margin-producto{
+    margin: 0;
+  }
+  .cuenta {
+   height: 50px;
+   width: 100%;
+  }
 }

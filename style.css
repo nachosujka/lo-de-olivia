@@ -176,15 +176,15 @@ margin-left: 50px;
  margin-right: 50px;
  margin-top: 20px;
 }
+.trabaja p{
+  justify-content: center;
+}
 .ataud{
 margin-top: 50px;
 }
-.lyna{
- margin-top: 40px;
-}
-.anotadores{
+.ofertas{
   margin-top: 40px;
-}
+ }
 .taza{
   margin-top: 50px;
 }

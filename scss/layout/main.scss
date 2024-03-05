@@ -1,0 +1,100 @@
+main{
+    background-color: map-get($colores, $primario );
+    .somos{
+        text-align: center;
+      }
+    article {
+        img:hover{
+            opacity: 0.6; 
+        }
+      }
+    .section1{
+        flex-direction: column;
+        background-color: map-get($colores, $primario );
+        h3 {
+            text-align: center;
+          }
+          .card {
+            display: flex;
+            flex-direction: row;
+            background-color:map-get($colores, $primario );
+            border: none;
+            .article1 {
+                border: 1px solid map-get($colores, $terciario );
+                width: calc(100%/4);
+                margin: 1%;
+                background-color: map-get($colores, $cuarto );
+                .jarro{
+                    margin-left: 50px;
+                    margin-top: 50px;
+                  }
+                  .taza_argentina{
+                    margin-top: 20px;
+                    margin-left: 50px;
+                  }
+                  .almohadon_pintar{
+                    margin-top: 50px;
+                    margin-left: 50px;
+                  }
+                  .margin-prooducto{
+                    margin-top: 30px;
+                    margin-left: 50px;
+                  }
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 1%;
+                    .ataud{
+                        margin-top: 50px;
+                        }
+                     .lyna{
+                            margin-top: 40px;
+                     }
+                     .anotadores{
+                        margin-top: 40px;
+                      }
+              }
+              img {
+                max-width: 200px;
+              }
+            } 
+        }
+    }
+    .section2 {
+        flex-direction: column;
+        background-color:map-get($colores, $primario );
+        h3 {
+            text-align: center;
+          }
+          .card2 {
+            display: flex;
+            flex-direction: row;
+            background-color:map-get($colores, $primario );
+            border: none;
+            justify-content: space-between;
+            .article2 {
+                border: 1px solid map-get($colores, $terciario );
+                width: calc(100%/4);
+                height: 300px;
+                margin: 1%;
+                background-color: map-get($colores, $cuarto );
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 1%;
+                    .taza{
+                        margin-top: 50px;
+                      }
+                      .duki{
+                        margin-top: 30px;
+                      }
+                  }
+                  img {
+                    max-width: 200px;
+                  }
+              }
+          }
+      }
+}

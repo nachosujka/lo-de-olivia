@@ -39,6 +39,14 @@ header {
 .crear_cuenta{
   color: #fff;
 }
+.btn-primary{
+  background-color: #723D46;
+  border-color: #723D46;
+}
+.btn-primary:hover{
+  background-color: #723D46;
+  border-color: #723D46;
+}
 .productos {
   display: flex;
   margin-right: 10px;

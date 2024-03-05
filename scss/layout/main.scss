@@ -1,5 +1,5 @@
 main{
-    background-color: map-get($colores, $primario );
+    background-color: map-get($colores, primario);
     .somos{
         text-align: center;
       }
@@ -10,20 +10,20 @@ main{
       }
     .section1{
         flex-direction: column;
-        background-color: map-get($colores, $primario );
+        background-color: map-get($colores, primario);
         h3 {
             text-align: center;
           }
           .card {
             display: flex;
             flex-direction: row;
-            background-color:map-get($colores, $primario );
+            background-color:map-get($colores, primario);
             border: none;
             .article1 {
-                border: 1px solid map-get($colores, $terciario );
+                border: 1px solid map-get($colores,cuarto);
                 width: calc(100%/4);
                 margin: 1%;
-                background-color: map-get($colores, $cuarto );
+                background-color: map-get($colores, quinto);
                 .jarro{
                     margin-left: 50px;
                     margin-top: 50px;
@@ -48,12 +48,9 @@ main{
                     .ataud{
                         margin-top: 50px;
                         }
-                     .lyna{
-                            margin-top: 40px;
-                     }
-                     .anotadores{
-                        margin-top: 40px;
-                      }
+                        .ofertas{
+                          margin-top: 40px;
+                         }
               }
               img {
                 max-width: 200px;
@@ -63,22 +60,22 @@ main{
     }
     .section2 {
         flex-direction: column;
-        background-color:map-get($colores, $primario );
+        background-color:map-get($colores, primario);
         h3 {
             text-align: center;
           }
           .card2 {
             display: flex;
             flex-direction: row;
-            background-color:map-get($colores, $primario );
+            background-color:map-get($colores, primario);
             border: none;
             justify-content: space-between;
             .article2 {
-                border: 1px solid map-get($colores, $terciario );
+                border: 1px solid map-get($colores, cuarto);
                 width: calc(100%/4);
                 height: 300px;
                 margin: 1%;
-                background-color: map-get($colores, $cuarto );
+                background-color: map-get($colores, quinto);
                 div {
                     display: flex;
                     flex-direction: column;

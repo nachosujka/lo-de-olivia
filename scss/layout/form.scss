@@ -5,6 +5,11 @@ form{
     margin-top: 100px;
     text-align: center;
     height: 450px;
+    @include media-query-mobile(){
+      margin-left: 80px;
+      margin-top: 50px;
+      width: 50%;
+    }
     .logo_cuenta{
         display: flex;
         justify-content: center;

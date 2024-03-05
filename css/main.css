@@ -48,6 +48,12 @@ header nav .cuenta {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 576px) {
+  header nav .cuenta {
+    height: 50px;
+    width: 100%;
+  }
+}
 header nav .cuenta a {
   color: #000;
 }
@@ -122,6 +128,13 @@ form {
   text-align: center;
   height: 450px;
 }
+@media (max-width: 576px) {
+  form {
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 50%;
+  }
+}
 form .logo_cuenta {
   display: flex;
   justify-content: center;
@@ -160,27 +173,49 @@ main .section1 .card {
   background-color: #FFE1A8;
   border: none;
 }
+@media (max-width: 576px) {
+  main .section1 .card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 main .section1 .card .article1 {
   border: 1px solid #000;
   width: 25%;
   margin: 1%;
   background-color: #fff;
 }
-main .section1 .card .article1 .jarro {
-  margin-left: 50px;
-  margin-top: 50px;
+@media (max-width: 576px) {
+  main .section1 .card .article1 {
+    width: 50%;
+  }
 }
 main .section1 .card .article1 .taza_argentina {
   margin-top: 20px;
   margin-left: 50px;
 }
-main .section1 .card .article1 .almohadon_pintar {
+@media (max-width: 576px) {
+  main .section1 .card .article1 .taza_argentina {
+    margin: 0;
+  }
+}
+main .section1 .card .article1 .margin-chico {
   margin-top: 50px;
   margin-left: 50px;
 }
-main .section1 .card .article1 .margin-prooducto {
+@media (max-width: 576px) {
+  main .section1 .card .article1 .margin-chico {
+    margin: 0;
+  }
+}
+main .section1 .card .article1 .margin-producto {
   margin-top: 30px;
   margin-left: 50px;
+}
+@media (max-width: 576px) {
+  main .section1 .card .article1 .margin-producto {
+    margin: 0;
+  }
 }
 main .section1 .card .article1 div {
   display: flex;
@@ -188,14 +223,41 @@ main .section1 .card .article1 div {
   align-items: center;
   padding: 1%;
 }
+@media (max-width: 576px) {
+  main .section1 .card .article1 div .productos1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
 main .section1 .card .article1 div .ataud {
   margin-top: 50px;
+}
+@media (max-width: 576px) {
+  main .section1 .card .article1 div .ataud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
 }
 main .section1 .card .article1 div .ofertas {
   margin-top: 40px;
 }
+@media (max-width: 576px) {
+  main .section1 .card .article1 div .ofertas {
+    margin: 0;
+  }
+}
 main .section1 .card .article1 img {
   max-width: 200px;
+}
+@media (max-width: 576px) {
+  main .section1 .card .article1 img {
+    max-width: 100%;
+  }
 }
 main .section2 {
   flex-direction: column;
@@ -211,12 +273,23 @@ main .section2 .card2 {
   border: none;
   justify-content: space-between;
 }
+@media (max-width: 576px) {
+  main .section2 .card2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 main .section2 .card2 .article2 {
   border: 1px solid #000;
   width: 25%;
   height: 300px;
   margin: 1%;
   background-color: #fff;
+}
+@media (max-width: 576px) {
+  main .section2 .card2 .article2 {
+    width: 50%;
+  }
 }
 main .section2 .card2 .article2 div {
   display: flex;
@@ -227,11 +300,26 @@ main .section2 .card2 .article2 div {
 main .section2 .card2 .article2 div .taza {
   margin-top: 50px;
 }
+@media (max-width: 576px) {
+  main .section2 .card2 .article2 div .taza {
+    margin: 50px;
+  }
+}
 main .section2 .card2 .article2 div .duki {
   margin-top: 30px;
 }
+@media (max-width: 576px) {
+  main .section2 .card2 .article2 div .duki {
+    margin: 0;
+  }
+}
 main .section2 .card2 .article2 img {
   max-width: 200px;
+}
+@media (max-width: 576px) {
+  main .section2 .card2 .article2 img {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

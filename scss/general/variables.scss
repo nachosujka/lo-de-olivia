@@ -5,3 +5,9 @@ $colores:(
     cuarto: #000,
     quinto: #fff,
 );
+
+@mixin media-query-mobile{
+    @media  (max-width: 576px){
+        @content;
+    }
+}

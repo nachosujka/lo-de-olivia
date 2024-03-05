@@ -21,6 +21,10 @@ header{
           align-items: end;
           margin-right: 10px;
           margin-bottom: 10px;
+          @include media-query-mobile(){
+            height: 50px;
+            width: 100%;
+          }
           a{
             color: map-get($colores, cuarto );
           }

@@ -1,5 +1,6 @@
 .body_grid{
-  display: grid;
+  margin: 0;
+  display: grid; 
   grid-template-columns: 25% 25% 25% 25%;
 }
 .header_grid{
@@ -14,11 +15,312 @@
 .footer_grid{
   background-color: blue;
 }
+
 @media (max-width:576px){
+
+body {
+  margin: 0;
+  background-color: #FFE1A8;
+}
+
+header {
+  background-color: #E37463;
+  width: 100%;
+  height: 140px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 70px;
+  width: 200px;
+  margin: 10px;
+}
+
+.cuenta {
+  display: flex;
+  align-items: end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.crear_cuenta{
+  color: #fff;
+}
+.btn-primary{
+  background-color: #723D46;
+  border-color: #723D46;
+}
+.btn-primary:hover{
+  background-color: #723D46;
+  border-color: #723D46;
+}
+.productos {
+  display: flex;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFE1A8;
+  border: none;
+}
+
+article.article1 {
+  border: 1px solid black;
+  width: calc(100%/4);
+  margin: 1%;
+  background-color: #fff;
+}
+
+.article1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+.card img {
+  max-width: 200px;
+}
+
+article img:hover {
+  opacity: 0.6;
+}
+.section1 {
+  flex-direction: column;
+  background-color: #FFE1A8;
+}
+.section1 h3 {
+  text-align: center;
+}
+.card2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFE1A8;
+  border: none;
+  justify-content: space-between;
+}
+article.article2 {
+  border: 1px solid black;
+  width: calc(100%/4);
+  height: 300px;
+  margin: 1%;
+  background-color: #fff;
+}
+
+.article2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+
+.card2 img {
+  max-width: 200px;
+}
+.section2 {
+  flex-direction: column;
+  background-color: #FFE1A8;
+}
+
+.section2 h3 {
+  text-align: center;
+}
+ul,
+li {
+  list-style: none;
+}
+.lista li ul {
+  display: none;
+  position: absolute;
+}
+.lista li,
+a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+.lista li:hover>ul {
+  display: block;
+}
+
+.lista li a:hover {
+  opacity: 0.6;
+}
+.list{
+  left: 0;
+}
+.lista {
+  z-index: 10;
+  display: flex;
+  left: 0;
+}
+
+.sublista {
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  left: 0;
+}
+.pie{
+  display: flex;
+  justify-content: space-between;
+}
+.redes{
+margin-left: 50px;
+}
+.nosotros{
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.trabaja p{
+ justify-content: center;
+}
+.social{
+  display: flex;
+}
+.ataud{
+margin-top: 50px;
+}
+.ofertas{
+ margin-top: 40px;
+}
+.taza{
+  margin-top: 50px;
+}
+.duki{
+  margin-top: 30px;
+}
+.taza_argentina{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.margin-chico{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.margin-producto{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.logo_cuenta{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.registro{
+  text-align: center;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+}
+form{
+  background-color: #E37463;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 100px;
+  text-align: center;
+  height: 450px;
+}
+.logo_regitro{
+  margin-bottom: 100px;
+}
+.somos{
+  text-align: center;
+}
+@media (max-width:576px){
+  .body_grid{
+    flex-direction: column;
+  }
+.card{
+  flex-direction: column;
+ align-items: center;
+}
+.card img{
+  max-width: 100%;
+}
+article.article1{
+ width: 50%;
+}
+.card2{
+  flex-direction: column;
+  align-items: center;
+}
+.card2 img{
+  max-width: 100%;
+}
+article.article2{
+  width: 50%;
+}
+.productos1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.productos2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ataud{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+nav{
+  font-size: 16px;
+}
+
 form{
   margin-left: 140px;
   margin-top: 50px;
   width: 50%;
 }
-
+.margin-producto{
+  margin: 0;
+}
+.ataud{
+  margin: 0;
+  }
+.ofertas{
+   margin: 0;
+  }
+.taza{
+    margin: 50;
+  }
+.duki{
+    margin: 0;
+  }
+.taza_argentina{
+    margin: 0;
+  }
+.margin-chico{
+    margin: 0;
+  }
+.margin-producto{
+    margin: 0;
+  }
+  .cuenta {
+   height: 50px;
+   width: 100%;
+  }
 }

@@ -1,0 +1,21 @@
+footer{
+    background-color: map-get($colores, primario );
+    .pie{
+        display: flex;
+        justify-content: space-between;
+        .redes{
+            margin-left: 50px;
+            .social{
+                display: flex;
+              }
+            }
+            .nosotros{
+                margin-right: 50px;
+                margin-top: 20px;
+                text-align: center;
+                .trabaja p{
+                    justify-content: center;
+                  }
+              }
+      }
+}

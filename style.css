@@ -15,6 +15,9 @@
 .footer_grid{
   background-color: blue;
 }
+
+@media (max-width:576px){
+
 body {
   margin: 0;
   background-color: #FFE1A8;
@@ -286,6 +289,7 @@ article.article2{
 nav{
   font-size: 16px;
 }
+
 form{
   margin-left: 140px;
   margin-top: 50px;

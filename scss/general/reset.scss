@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:map-get($colores, primario);
+}
+button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .btn-primary{
+    background-color: map-get($colores , terciario );
+    border-color: map-get($colores , terciario );
+  }
+  .btn-primary:hover{
+    background-color: map-get($colores , terciario );
+    border-color: map-get($colores , terciario );
+  }

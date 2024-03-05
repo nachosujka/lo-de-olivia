@@ -1,0 +1,13 @@
+$colores:(
+    primario:#FFE1A8,
+    secundario: #E37463,
+    terciario:#723D46,
+    cuarto: #000,
+    quinto: #fff,
+);
+
+@mixin media-query-mobile{
+    @media  (max-width: 576px){
+        @content;
+    }
+}

@@ -2,6 +2,10 @@ main{
     background-color: map-get($colores, primario);
     .somos{
         text-align: center;
+        a{
+          color: map-get($colores, quinto);
+          text-decoration: none;
+        }
       }
     article {
         img:hover{

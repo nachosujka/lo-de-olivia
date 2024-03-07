@@ -157,6 +157,10 @@ main {
 main .somos {
   text-align: center;
 }
+main .somos a {
+  color: #fff;
+  text-decoration: none;
+}
 main article img:hover {
   opacity: 0.6;
 }

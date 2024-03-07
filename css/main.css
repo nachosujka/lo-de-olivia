@@ -191,8 +191,8 @@ main .section1 .card .article1 {
   }
 }
 main .section1 .card .article1 .taza_argentina {
-  margin-top: 30px;
-  margin-left: 25px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 @media (max-width: 576px) {
   main .section1 .card .article1 .taza_argentina {
@@ -200,8 +200,8 @@ main .section1 .card .article1 .taza_argentina {
   }
 }
 main .section1 .card .article1 .margin-chico {
-  margin-top: 70px;
-  margin-left: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 @media (max-width: 576px) {
   main .section1 .card .article1 .margin-chico {
@@ -210,7 +210,7 @@ main .section1 .card .article1 .margin-chico {
 }
 main .section1 .card .article1 .margin-producto {
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 @media (max-width: 576px) {
   main .section1 .card .article1 .margin-producto {
@@ -320,6 +320,27 @@ main .section2 .card2 .article2 img {
   main .section2 .card2 .article2 img {
     max-width: 100%;
   }
+}
+main .sucursales {
+  margin-left: 400px;
+  width: 500px;
+}
+@media (max-width: 576px) {
+  main .sucursales {
+    width: 50%;
+    height: 10%;
+    margin-left: 80px;
+  }
+}
+main .sucursales h3 {
+  text-align: center;
+}
+main .sucursales .sucursal div {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .sucursales .sucursal div p {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

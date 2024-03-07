@@ -143,4 +143,25 @@ main{
               }
           }
       }
+      .sucursales{
+        margin-left: 400px;
+        width: 500px;
+        @include media-query-mobile(){
+          width: 50%;
+          height: 10%;
+          margin-left: 80px;
+        }
+        h3{
+          text-align: center;
+        }
+        .sucursal{
+          div{
+            display: flex;
+            flex-wrap: wrap;
+            p{
+              margin-right: 10px;
+            }
+          }
+        }
+      }
 }

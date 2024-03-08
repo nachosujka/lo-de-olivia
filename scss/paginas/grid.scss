@@ -1,0 +1,23 @@
+.body_grid{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100vh;
+        .header_grid, .footer_grid{
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            height: auto;
+            width: auto;
+        }
+        .main_grid{
+            padding: 1em;
+            background-color: #fff;
+        }
+    }
+}

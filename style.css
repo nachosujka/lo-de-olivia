@@ -1,17 +1,22 @@
-.body_grid{
-  margin: 0;
-  display: grid; 
-  grid-template-columns: 25% 25% 25% 25%;
+.body_grid {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.header_grid{
-  background-color: aqua;
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
-.nav_grid{
-  background-color: pink;
+
+.header_grid, .footer_grid {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
 }
-.main_grid{
-  background-color: red;
-}
-.footer_grid{
-  background-color: blue;
+
+.main_grid {
+    padding: 1em;
 }

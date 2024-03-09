@@ -51,6 +51,13 @@ main{
                   }
                   .margin-producto{
                     margin-top: 30px;
+                    margin-left: 30px;
+                    @include media-query-mobile(){
+                      margin: 0;
+                    }
+                  }
+                  .boca{
+                    margin-top: 30px;
                     margin-left: 50px;
                     @include media-query-mobile(){
                       margin: 0;

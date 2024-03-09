@@ -238,10 +238,19 @@ main .section1 .card .article1 .margin-chico {
 }
 main .section1 .card .article1 .margin-producto {
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 @media (max-width: 576px) {
   main .section1 .card .article1 .margin-producto {
+    margin: 0;
+  }
+}
+main .section1 .card .article1 .boca {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+@media (max-width: 576px) {
+  main .section1 .card .article1 .boca {
     margin: 0;
   }
 }

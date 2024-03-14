@@ -15,7 +15,7 @@ main{
     .section1{
         flex-direction: column;
         background-color: map-get($colores, primario);
-        h3 {
+        h1 {
             text-align: center;
           }
           .card {
@@ -69,6 +69,9 @@ main{
                     align-items: center;
                     padding: 1%;
                   .productos1{
+                    b{
+                      font-size: 17px;
+                    }
                     @include media-query-mobile(){
                       display: flex;
                       text-align: center;
@@ -105,7 +108,7 @@ main{
     .section2 {
         flex-direction: column;
         background-color:map-get($colores, primario);
-        h3 {
+        h2 {
             text-align: center;
           }
           .card2 {
@@ -132,6 +135,17 @@ main{
                     flex-direction: column;
                     align-items: center;
                     padding: 1%;
+                    .productos2{
+                      b{
+                        font-size: 17px;
+                      }
+                      @include media-query-mobile(){
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                    }
                     .taza{
                         margin-top: 50px;
                         @include media-query-mobile(){
@@ -141,7 +155,7 @@ main{
                       .duki{
                         margin-top: 30px;
                         @include media-query-mobile(){
-                          margin: 0;
+                          margin-top: 0;
                         }
                       }
                   }
@@ -162,7 +176,7 @@ main{
           height: 10%;
           margin-left: 80px;
         }
-        h3{
+        h1{
           text-align: center;
         }
         .sucursal{

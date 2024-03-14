@@ -38,10 +38,12 @@ header{
             ul, li {
               list-style: none;
             }
+           }
             .lista {
               z-index: 10;
               display: flex;
               left: 0;
+            
               li{
                 a:hover{
                   opacity: 0.6;
@@ -49,6 +51,7 @@ header{
                 ul{
                   display: none;
               position: absolute;
+            }
                 }
               }
               li, a {
@@ -61,6 +64,9 @@ header{
               }        
               .list{
                 left: 0;
+                @include media-query-mobile(){
+                  position: fixed;
+                  }
                 .sublista {
                   background-color: map-get($colores,quinto );
                   border: 1px solid;
@@ -69,7 +75,5 @@ header{
                   left: 0;
                 }
               }
-              }
         }
     }
-  }

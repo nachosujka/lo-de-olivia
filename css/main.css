@@ -91,30 +91,35 @@ header nav .productos {
 header nav .productos ul, header nav .productos li {
   list-style: none;
 }
-header nav .productos .lista {
+header nav .lista {
   z-index: 10;
   display: flex;
   left: 0;
 }
-header nav .productos .lista li a:hover {
+header nav .lista li a:hover {
   opacity: 0.6;
 }
-header nav .productos .lista li ul {
+header nav .lista li ul {
   display: none;
   position: absolute;
 }
-header nav .productos .lista li, header nav .productos .lista a {
+header nav li, header nav a {
   color: #000;
   text-decoration: none;
   display: block;
 }
-header nav .productos .lista li:hover > ul {
+header nav li:hover > ul {
   display: block;
 }
-header nav .productos .lista .list {
+header nav .list {
   left: 0;
 }
-header nav .productos .lista .list .sublista {
+@media (max-width: 576px) {
+  header nav .list {
+    position: fixed;
+  }
+}
+header nav .list .sublista {
   background-color: #fff;
   border: 1px solid;
   border-radius: 5px;
@@ -192,7 +197,7 @@ main .section1 {
   flex-direction: column;
   background-color: #FFE1A8;
 }
-main .section1 h3 {
+main .section1 h1 {
   text-align: center;
 }
 main .section1 .card {
@@ -260,6 +265,9 @@ main .section1 .card .article1 div {
   align-items: center;
   padding: 1%;
 }
+main .section1 .card .article1 div .productos1 b {
+  font-size: 17px;
+}
 @media (max-width: 576px) {
   main .section1 .card .article1 div .productos1 {
     display: flex;
@@ -300,7 +308,7 @@ main .section2 {
   flex-direction: column;
   background-color: #FFE1A8;
 }
-main .section2 h3 {
+main .section2 h2 {
   text-align: center;
 }
 main .section2 .card2 {
@@ -334,6 +342,17 @@ main .section2 .card2 .article2 div {
   align-items: center;
   padding: 1%;
 }
+main .section2 .card2 .article2 div .productos2 b {
+  font-size: 17px;
+}
+@media (max-width: 576px) {
+  main .section2 .card2 .article2 div .productos2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
 main .section2 .card2 .article2 div .taza {
   margin-top: 50px;
 }
@@ -347,7 +366,7 @@ main .section2 .card2 .article2 div .duki {
 }
 @media (max-width: 576px) {
   main .section2 .card2 .article2 div .duki {
-    margin: 0;
+    margin-top: 0;
   }
 }
 main .section2 .card2 .article2 img {
@@ -369,7 +388,7 @@ main .sucursales {
     margin-left: 80px;
   }
 }
-main .sucursales h3 {
+main .sucursales h1 {
   text-align: center;
 }
 main .sucursales .sucursal div {

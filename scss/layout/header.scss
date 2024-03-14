@@ -43,7 +43,7 @@ header{
               z-index: 10;
               display: flex;
               left: 0;
-            
+            }
               li{
                 a:hover{
                   opacity: 0.6;
@@ -51,6 +51,11 @@ header{
                 ul{
                   display: none;
               position: absolute;
+            }
+            .lista:hover{
+              @include media-query-mobile(){
+                position: fixed;
+                }
             }
                 }
               }
@@ -61,12 +66,17 @@ header{
               }
               li:hover>ul {
                 display: block;
-              }        
-              .list{
-                left: 0;
                 @include media-query-mobile(){
                   position: fixed;
                   }
+              } 
+              .list:hover{
+                @include media-query-mobile(){
+                  position: fixed;
+                  }
+              }       
+              .list{
+                left: 0;
                 .sublista {
                   background-color: map-get($colores,quinto );
                   border: 1px solid;
@@ -74,6 +84,11 @@ header{
                   display: flex;
                   left: 0;
                 }
+                .sublista:hover{
+                  @include media-query-mobile(){
+                    position: fixed;
+                    }
+                }
               }
         }
-    }
+

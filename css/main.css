@@ -96,35 +96,50 @@ header nav .lista {
   display: flex;
   left: 0;
 }
-header nav .lista li a:hover {
+header nav li a:hover {
   opacity: 0.6;
 }
-header nav .lista li ul {
+header nav li ul {
   display: none;
   position: absolute;
 }
-header nav li, header nav a {
+@media (max-width: 576px) {
+  header nav li .lista:hover {
+    position: fixed;
+  }
+}
+header li, header a {
   color: #000;
   text-decoration: none;
   display: block;
 }
-header nav li:hover > ul {
+header li:hover > ul {
   display: block;
 }
-header nav .list {
-  left: 0;
-}
 @media (max-width: 576px) {
-  header nav .list {
+  header li:hover > ul {
     position: fixed;
   }
 }
-header nav .list .sublista {
+@media (max-width: 576px) {
+  header .list:hover {
+    position: fixed;
+  }
+}
+header .list {
+  left: 0;
+}
+header .list .sublista {
   background-color: #fff;
   border: 1px solid;
   border-radius: 5px;
   display: flex;
   left: 0;
+}
+@media (max-width: 576px) {
+  header .list .sublista:hover {
+    position: fixed;
+  }
 }
 
 footer {

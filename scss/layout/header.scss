@@ -52,13 +52,7 @@ header{
                   display: none;
               position: absolute;
             }
-            }
-           /* .lista:hover{
-              @include media-query-mobile(){
-                position: fixed;
-                }
-            } */ //no sirve
-              
+            } 
               li, a {
                 color: map-get($colores, cuarto);
                 text-decoration: none;
@@ -66,20 +60,9 @@ header{
               }
               li:hover>ul {
                 display: block;
-               /* @include media-query-mobile(){
-                  position: fixed;
-                  } */ //no sirve
-              } 
-            /*  .list:hover{
-                @include media-query-mobile(){
-                  position: fixed;
-                  }
-              } */ // no sirve       
+              }       
               .list{
                 left: 0;
-                  @include media-query-mobile(){
-                    position: fixed;
-                    }
                 .sublista {
                   background-color: map-get($colores,quinto );
                   border: 1px solid;
@@ -88,11 +71,6 @@ header{
                   left: 0;
     
                 }
-               /* .sublista:hover{
-                  @include media-query-mobile(){
-                    position: fixed;
-                    }
-                } */ //no sirve
               }
           }
         }

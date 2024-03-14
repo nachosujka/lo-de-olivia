@@ -65,6 +65,16 @@ header .logo img {
 header nav {
   display: flex;
   justify-content: space-between;
+  /* .lista:hover{
+     @include media-query-mobile(){
+       position: fixed;
+       }
+   } */
+  /*  .list:hover{
+      @include media-query-mobile(){
+        position: fixed;
+        }
+    } */
 }
 header nav .cuenta {
   display: flex;
@@ -103,43 +113,36 @@ header nav li ul {
   display: none;
   position: absolute;
 }
-@media (max-width: 576px) {
-  header nav li .lista:hover {
-    position: fixed;
-  }
-}
-header li, header a {
+header nav li, header nav a {
   color: #000;
   text-decoration: none;
   display: block;
 }
-header li:hover > ul {
+header nav li:hover > ul {
   display: block;
+  /* @include media-query-mobile(){
+     position: fixed;
+     } */
 }
-@media (max-width: 576px) {
-  header li:hover > ul {
-    position: fixed;
-  }
-}
-@media (max-width: 576px) {
-  header .list:hover {
-    position: fixed;
-  }
-}
-header .list {
+header nav .list {
   left: 0;
+  /* .sublista:hover{
+     @include media-query-mobile(){
+       position: fixed;
+       }
+   } */
 }
-header .list .sublista {
+@media (max-width: 576px) {
+  header nav .list {
+    position: fixed;
+  }
+}
+header nav .list .sublista {
   background-color: #fff;
   border: 1px solid;
   border-radius: 5px;
   display: flex;
   left: 0;
-}
-@media (max-width: 576px) {
-  header .list .sublista:hover {
-    position: fixed;
-  }
 }
 
 footer {

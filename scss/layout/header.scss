@@ -52,13 +52,13 @@ header{
                   display: none;
               position: absolute;
             }
-            .lista:hover{
+            }
+           /* .lista:hover{
               @include media-query-mobile(){
                 position: fixed;
                 }
-            }
-                }
-              }
+            } */ //no sirve
+              
               li, a {
                 color: map-get($colores, cuarto);
                 text-decoration: none;
@@ -66,29 +66,34 @@ header{
               }
               li:hover>ul {
                 display: block;
-                @include media-query-mobile(){
+               /* @include media-query-mobile(){
                   position: fixed;
-                  }
+                  } */ //no sirve
               } 
-              .list:hover{
+            /*  .list:hover{
                 @include media-query-mobile(){
                   position: fixed;
                   }
-              }       
+              } */ // no sirve       
               .list{
                 left: 0;
+                  @include media-query-mobile(){
+                    position: fixed;
+                    }
                 .sublista {
                   background-color: map-get($colores,quinto );
                   border: 1px solid;
                   border-radius: 5px;
                   display: flex;
                   left: 0;
+    
                 }
-                .sublista:hover{
+               /* .sublista:hover{
                   @include media-query-mobile(){
                     position: fixed;
                     }
-                }
+                } */ //no sirve
               }
+          }
         }
 

@@ -7,11 +7,6 @@ main{
           text-decoration: none;
         }
       }
-    article {
-        img:hover{
-            opacity: 0.6; 
-        }
-      }
     .section1{
         flex-direction: column;
         background-color: map-get($colores, primario);
@@ -97,6 +92,9 @@ main{
                          }
               }
               img {
+                &:hover{
+                  opacity: 0.6; 
+              }
                 max-width: 200px;
                 @include media-query-mobile(){
                   max-width: 100%;
@@ -160,6 +158,9 @@ main{
                       }
                   }
                   img {
+                    &:hover{
+                      opacity: 0.6; 
+                  }
                     max-width: 200px;
                     @include media-query-mobile(){
                       max-width: 100%;

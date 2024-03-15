@@ -185,9 +185,6 @@ main .somos a {
   color: #fff;
   text-decoration: none;
 }
-main article img:hover {
-  opacity: 0.6;
-}
 main .section1 {
   flex-direction: column;
   background-color: #FFE1A8;
@@ -294,6 +291,9 @@ main .section1 .card .article1 div .ofertas {
 main .section1 .card .article1 img {
   max-width: 200px;
 }
+main .section1 .card .article1 img:hover {
+  opacity: 0.6;
+}
 @media (max-width: 576px) {
   main .section1 .card .article1 img {
     max-width: 100%;
@@ -366,6 +366,9 @@ main .section2 .card2 .article2 div .duki {
 }
 main .section2 .card2 .article2 img {
   max-width: 200px;
+}
+main .section2 .card2 .article2 img:hover {
+  opacity: 0.6;
 }
 @media (max-width: 576px) {
   main .section2 .card2 .article2 img {

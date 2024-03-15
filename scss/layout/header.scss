@@ -38,11 +38,18 @@ header{
             ul, li {
               list-style: none;
             }
-           }
             .lista {
               z-index: 10;
               display: flex;
               left: 0;
+              @include media-query-mobile(){
+                display: block;
+              }
+            }
+            .lista:hover{
+              @include media-query-mobile(){
+                display: block;
+              }
             }
               li{
                 a:hover{
@@ -51,6 +58,12 @@ header{
                 ul{
                   display: none;
               position: absolute;
+              
+            }
+            ul:hover{
+              @include media-query-mobile(){
+                display: block;
+              }
             }
             } 
               li, a {
@@ -61,17 +74,31 @@ header{
               li:hover>ul {
                 display: block;
               }       
+              .list:hover{
+                @include media-query-mobile(){
+                  display: block;
+                }
+              }
               .list{
                 left: 0;
+            
                 .sublista {
                   background-color: map-get($colores,quinto );
                   border: 1px solid;
                   border-radius: 5px;
                   display: flex;
                   left: 0;
-    
+                
+                }
+                .sublista:hover{
+                    @include media-query-mobile(){
+                      display: block;
+                    }
                 }
               }
+           }
           }
         }
+
+
 
